@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Page-1" id="c4lcNRsMolZl0IEA_V5V">
+    <mxGraphModel dx="707" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y7YPNm6CZn9QZTvE1YFi-9" value="GeometricObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="270" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="y7YPNm6CZn9QZTvE1YFi-10" value="&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;- color: String&lt;/div&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;- filled: boolean&lt;/div&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;- dateCreated: java.util.Date&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="y7YPNm6CZn9QZTvE1YFi-9">
+          <mxGeometry y="26" width="270" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="y7YPNm6CZn9QZTvE1YFi-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="y7YPNm6CZn9QZTvE1YFi-9">
+          <mxGeometry y="100" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="y7YPNm6CZn9QZTvE1YFi-12" value="&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;div&gt;+ GeometricObject()&lt;/div&gt;&lt;div&gt;+ GeometricObject(color: String, filled: boolean)&lt;/div&gt;&lt;div&gt;+ getColor(): String&lt;/div&gt;&lt;div&gt;+ setColor(color: String): void&lt;/div&gt;&lt;div&gt;+ isFilled(): boolean&lt;/div&gt;&lt;div&gt;+ setFilled(filled: boolean): void&lt;/div&gt;&lt;div&gt;+ getDateCreated(): Date&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;&lt;div&gt;+ getArea(): double&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (abstract)&lt;/div&gt;&lt;div&gt;+ getPerimeter(): double&amp;nbsp; &amp;nbsp;(abstract)&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="y7YPNm6CZn9QZTvE1YFi-9">
+          <mxGeometry y="108" width="270" height="232" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
